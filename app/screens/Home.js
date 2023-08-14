@@ -21,7 +21,7 @@ function Home({ navigation }) {
   function appBar() {
     return (
       <View style={styles.appBarView}>
-        <Text style={styles.header}>Biometric Login</Text>
+        <Text style={styles.header}>Biometric Authentication</Text>
       </View>
     );
   }
@@ -121,7 +121,6 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 20,
     fontWeight: 'bold',
-    fontFamily: 'Arial',
     paddingLeft: 10,
   },
   socialView: {
