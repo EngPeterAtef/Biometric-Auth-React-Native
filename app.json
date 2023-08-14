@@ -4,12 +4,12 @@
     "slug": "Auth_Ways",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/fingerprint.png",
+    "icon": "./assets/lock.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/fingerprint.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#000000"
+      "backgroundColor": "#ffffff"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,8 +19,8 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/fingerprint.png",
-        "backgroundColor": "#000000"
+        "foregroundImage": "./assets/lock.png",
+        "backgroundColor": "#ffffff"
       },
       "package": "com.peter_atef200.Auth_Ways"
     },
